@@ -14,11 +14,9 @@ La solución se desarrolló para dotar a la empresa de una herramienta de Inteli
 
 El principal objetivo fue transformar una fuente de datos pública y masiva en una herramienta de predicción accionable:
 
-    Ingesta y Limpieza de Datos: Procesar grandes volúmenes de datos brutos del INE (Instituto Nacional de Estadística).
-
-    Enriquecimiento de Datos: Integrar una librería de nombres especializada para construir un modelo predictivo robusto.
-
-    Generación de Insights: Proporcionar una predicción geográfica útil para las áreas de Ventas y Análisis de Mercado.
+- Ingesta y Limpieza de Datos: Procesar grandes volúmenes de datos brutos del INE (Instituto Nacional de Estadística).
+- Enriquecimiento de Datos: Integrar una librería de nombres especializada para construir un modelo predictivo robusto.
+- Generación de Insights: Proporcionar una predicción geográfica útil para las áreas de Ventas y Análisis de Mercado.
 
 🛠️ Stack Tecnológico
 
@@ -35,21 +33,15 @@ La solución se implementó utilizando herramientas estándar de Ciencia de Dato
 
 El pipeline sigue un flujo lógico de ETL (Extracción, Transformación, Carga/Aplicación):
 
-    Extracción: Obtención de los datos brutos de registros de nombres del INE.
-
-    Transformación y Limpieza:
-
-        Data Wrangling con Pandas para estandarizar formatos y manejar datos faltantes.
-
-        Aplicación de lógica de clasificación predictiva basada en el mapeo de nombres.
-
-    Aplicación: Integración del modelo en un script ejecutable que proporciona la predicción al alimentar un nuevo nombre.
+- Extracción: Obtención de los datos brutos de registros de nombres del INE.
+- Transformación y Limpieza: Data Wrangling con Pandas para estandarizar formatos y manejar datos faltantes.
+- Aplicación: Integración del modelo en un script ejecutable que proporciona la predicción al alimentar un nuevo nombre.
 
 ✅ Lecciones Aprendidas y Valor
 
-    Ingeniería de Datos en Producción: Demostración de la capacidad para construir un pipeline de datos completo desde la ingesta hasta la predicción final.
+Ingeniería de Datos en Producción: Demostración de la capacidad para construir un pipeline de datos completo desde la ingesta hasta la predicción final.
 
-    Valor de Negocio: El proyecto transformó una suposición sobre el cliente en un dato estructurado y segmentable, lo que resulta directamente en mejores decisiones de inversión en publicidad y análisis geográfico.
+Valor de Negocio: El proyecto transformó una suposición sobre el cliente en un dato estructurado y segmentable, lo que resulta directamente en mejores decisiones de inversión en publicidad y análisis geográfico.
 
 🛜 Redes sociales
 
